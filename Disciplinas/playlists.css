@@ -1,0 +1,82 @@
+html {
+  height: 100%; 
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  background-image: url(/assets/css/math-foto.jpg);
+}
+
+.main {
+  padding-bottom: 30px;
+  flex: 1;
+  padding-top: 60px;
+  background-color: rgba(32, 31, 31, 0.753);
+  position: relative;
+  min-width: 100%; 
+}
+
+.container {
+  z-index: 10;
+  flex: 1;
+  padding-top: 60px;
+  position: relative;
+  margin-left: 100px;
+  display: flex;
+}
+
+.container-titulo {
+  z-index: 10;
+  flex: 1;
+  padding-top: 60px;
+  position: relative;
+  margin-left: 100px;
+  text-align: left;
+  max-width: 1200px;
+}
+
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+.videos-layout {
+  display: flex;
+  flex-wrap: wrap; /*indica pro flex-wrap que pode quebrar*/
+  max-width: 1200px; /*indica que meu container vai ter no máx essa largura de 800px*/
+  margin: 0 auto; /*para alinhar ao centro quando passar dos 800px*/
+}
+
+.videos-layout > div { /*estilizar as divs internas à essa class*/
+  flex: 1 1 500px; /* 1- se expande; 1-pode ficar menor (flex shrink); 200px-é uma base, caso não tenha 200px, ele quebra*/
+  margin: 10px;
+}
+
+
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0,0,0,.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,.8) 100%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+}
+
+
+.footer {
+  background-color: black;
+  color: beige;
+  width: 100%;
+  text-align: center;
+}
+

@@ -1,0 +1,139 @@
+
+html {
+  height: 100%;
+  
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+.main {
+  
+  padding-top: 60px;
+  background: url('math-foto.jpg') center;
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.h1 {
+  z-index: 100;
+  font-size: 24px;
+  margin-top: 90px;
+  width: 640px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.h2 {
+  z-index: 100;
+  width: 640px;
+  height: 34px;
+}
+
+.p {
+  z-index: 100;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.container {
+  padding-bottom: 30px;
+  z-index: 1;
+  flex: 1;
+  padding-top: 60px;
+  background-color: rgba(32, 31, 31, 0.753);
+  position: relative;
+  margin: 0, 0;
+  min-width: 100%; 
+}
+
+.containerIndex {
+  max-width: 1130px;
+  margin: 0 auto;
+
+}
+
+.main-child {
+  height: 750px;
+  width: 100%;
+ z-index: 10; 
+ display: grid;
+ justify-items: center;
+ text-align: center;
+}
+
+.gradient {
+  background: rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(
+    to top,
+    rgba(0,0,0,.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,.8) 100%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+}
+
+.form {
+  z-index: 1;
+  
+}
+
+.section {
+  background: black;
+  padding: 4rem 0;
+  border-top: 8px solid #222;
+
+}
+
+.section h1 {
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+
+.section p {
+  font-size: 26px;
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+}
+
+.img-tv {
+  position: relative;
+}
+
+.img-tv img {
+  position: relative;
+  z-index: 1;
+}
+
+.video-tv {
+  position: absolute;
+  top: 100px;
+  left: 84px;
+}
+
+
+.footer {
+  background-color: black;
+  color: beige;
+  width: 100%;
+  text-align: center;
+}
+
+
